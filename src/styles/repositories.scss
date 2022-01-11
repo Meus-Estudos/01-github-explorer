@@ -1,0 +1,32 @@
+section.repository-list{
+    margin: 40px;
+    
+    h1{
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+
+        li{
+            margin-bottom: 20px;
+
+            & + li { //toda li que antes dela tem outra li vai aplicar
+                margin-top: 20px
+            }
+
+            p{ 
+                font-size: 14px;
+                color: #444
+            }
+
+            a{
+                display: inline-block;
+                margin-top: 16px;
+                text-decoration: none;
+                color: #8257e6;
+            }
+        }
+    }
+
+}
